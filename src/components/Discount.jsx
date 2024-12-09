@@ -5,7 +5,7 @@ import image3 from "../../public/images/freepik__expand__8571.png";
 
 function Discount() {
   return (
-    <div className="my-[100px] flex flex-col lg:flex-row h-auto lg:h-[450px] w-[90%] mx-auto justify-center items-center">
+    <div className="my-[100px] flex flex-col lg:flex-row h-auto lg:h-[400px] w-[90%] mx-auto justify-center items-center">
       <div className='left w-full lg:w-2/3 h-[300px] lg:h-full relative mb-4 lg:mb-0'>
         <img src={image1} alt="Discount Headphones" className="w-full h-full object-fill" />
         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 flex justify-center items-center transition-opacity">
