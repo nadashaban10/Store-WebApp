@@ -3,11 +3,11 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import image1 from "../../public/images/covers.jpg";
-import image2 from "../../public/images/Z_MWW53AM-A.avif";
+import image2 from "../../public/images/pods.webp";
 import image3 from "../../public/images/wach.jpg";
 import image4 from "../../public/images/screenProtector.jpg";
 import image5 from "../../public/images/s-l400.jpg";
-import image6 from "../../public/images/Z_MWW53AM-A.avif";
+import image6 from "../../public/images/charger.jpeg";
 
 const Category = () => {
   const settings = {
@@ -42,12 +42,14 @@ const Category = () => {
   };
 
   const categories = [
-    { id: 1, title: 'AirPods',  img: image1 },
-    { id: 2, title: 'Smartwatch', img: image2 },
-    { id: 3, title: 'Covers', description: 'Durable and stylish phone covers', img: image3 },
-    { id: 4, title: 'Lanyard', img: image4 },
-    { id: 5, title: 'Chargers',img: image5 },
-    { id: 6, title: 'Screen Protectors', img: image6 },
+    { id: 1, title: 'Covers',  img: image1 },
+    { id: 2, title: ' Chargers', img: image6 },
+   
+    { id: 3, title: 'Smartwatch', description: 'Durable and stylish phone covers', img: image3 },
+    { id: 4, title: 'Screen Protectors', img: image4 },
+    { id: 5, title: 'Landyard',img: image5 },
+
+    { id: 6, title: 'Airpods', img: image2 },
   ];
 
   return (

@@ -4,12 +4,12 @@ import image1 from "../../public/images/covers.jpg";
 import image2 from "../../public/images/Z_MWW53AM-A.avif";
 import image3 from "../../public/images/wach.jpg";
 import image4 from "../../public/images/screenProtector.jpg";
-import image5 from "../../public/images/s-l400.jpg";
+import image5 from "../../public/images/charger.jpeg";
 import image6 from "../../public/images/iphone.png";
 
 const products = [
   { id: 1, title: 'Phone Covers', img: image1, priceBefore: 100, priceAfter: 80, discount: 20, description: 'Durable and stylish phone covers.' },
-  { id: 2, title: 'Smartwatch', img: image2, priceBefore: 150, priceAfter: 120, discount: 30, description: 'Latest smartwatches with advanced features.' },
+  { id: 2, title: 'HeadPhones', img: image2, priceBefore: 150, priceAfter: 120, discount: 30, description: 'Latest smartwatches with advanced features.' },
   { id: 3, title: 'Watch', img: image3, priceBefore: 200, priceAfter: 160, discount: 40, description: 'Elegant and functional watches.' },
   { id: 4, title: 'Screen Protector', img: image4, priceBefore: 250, priceAfter: 200, discount: 50, description: 'Protect your screen from scratches and damage.' },
   { id: 5, title: 'Charger', img: image5, priceBefore: 300, priceAfter: 240, discount: 60, description: 'Fast and reliable phone chargers.' },

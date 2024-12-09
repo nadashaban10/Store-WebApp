@@ -2,7 +2,8 @@ import React from 'react';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import image1 from "../../public/images/Apple-Watch.jpg"; 
-import imagtwo from "../../public/images/Apple-Watch.jpg";
+import imagtwo from "../../public/images/coverPhons.webp";
+import imagthree from "../../public/images/phoneacc.png";
 
 function Header() {
   return (
@@ -48,7 +49,7 @@ function Header() {
         <div className="relative">
           <img
             className="w-full h-[500px] object-cover rounded-3xl"
-            src={imagtwo}
+            src={imagthree}
             alt="Third Image"
           />
           <div className="absolute inset-0 flex flex-col items-start justify-center bg-black bg-opacity-50 text-white p-8 rounded-3xl">
@@ -60,21 +61,7 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="relative">
-          <img
-            className="w-full h-[500px] object-cover rounded-3xl"
-            src={imagtwo}
-            alt="Fourth Image"
-          />
-          <div className="absolute inset-0 flex flex-col items-start justify-center bg-black bg-opacity-50 text-white p-8 rounded-3xl">
-            <h2 className="text-3xl md:text-5xl font-bold text-start lg:text-center">Fast and Reliable Shipping</h2>
-            <p className="mt-4 text-sm md:text-lg text-gray-300 w-full md:w-[60%] text-start">Receive your orders quickly and reliably with our fast shipping options. We ensure that your products arrive on time and in perfect condition.</p>
-            <div className="mt-4 space-x-4">
-              <button className="bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600">Shop Now</button>
-              <button className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200">Learn More</button>
-            </div>
-          </div>
-        </div>
+       
       </Carousel>
     </div>
   );
