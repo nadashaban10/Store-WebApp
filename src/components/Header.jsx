@@ -7,7 +7,7 @@ import imagthree from "../../public/images/phoneacc.png";
 
 function Header() {
   return (
-    <div className="w-full ">
+    <div className="w-full mt-5 ">
       <Carousel
         showThumbs={false}
         infiniteLoop={true}
@@ -16,7 +16,7 @@ function Header() {
         showArrows={false}
         className="w-full"
       >
-        <div className="relative mt-5">
+        <div className="relative ">
           <img
             className="w-full h-[500px] object-cover rounded-3xl"
             src={image1}
