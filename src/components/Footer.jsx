@@ -46,14 +46,20 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
       {/* Scroll to Top Button */}
       <div className="text-center mt-8">
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="p-1 w-[40px] bg-gray-500 text-white font-bold rounded-full hover:bg-gray-300 "
+          className="p-1 w-[40px] bg-gray-500 text-white font-bold rounded-full hover:bg-gray-300"
         >
           &#8679;
         </button>
+      </div>
+
+      {/* Copyright Section */}
+      <div className="text-center mt-5 text-[12px] text-gray-400">
+        <p>&copy;2024 Developed by Nada Shaban with Media Plus</p>
       </div>
     </footer>
   );
