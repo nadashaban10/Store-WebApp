@@ -1,11 +1,21 @@
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-800 py-10 px-4 text-white">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Customer Service */}
+      <div>
+          <h1 className="text-start text-3xl text-red-600 font-poppins font-bold mb-3">Phone Shop</h1>
+         
+          <div className="flex space-x-4 text-white justify-start items-center ">
+            <FaFacebook className="text-3xl cursor-pointer hover:text-blue-600" />
+            <FaTwitter className="text-3xl cursor-pointer hover:text-blue-400" />
+            <FaInstagram className="text-3xl cursor-pointer hover:text-pink-500" />
+            <FaWhatsapp className="text-3xl cursor-pointer hover:text-green-500" />
+          </div>
+        </div>
         <div>
+        
           <h4 className="text-lg font-semibold mb-4">Customer Service</h4>
           <ul className="space-y-2 text-sm text-white">
             <li>FAQ</li>
@@ -37,14 +47,7 @@ const Footer = () => {
         </div>
 
         {/* Follow Us */}
-        <div>
-          <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
-          <div className="flex space-x-4 text-white">
-            <FaFacebook className="text-2xl cursor-pointer hover:text-blue-600" />
-            <FaTwitter className="text-2xl cursor-pointer hover:text-blue-400" />
-            <FaInstagram className="text-2xl cursor-pointer hover:text-pink-500" />
-          </div>
-        </div>
+       
       </div>
 
       {/* Scroll to Top Button */}

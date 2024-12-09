@@ -7,7 +7,7 @@ import imagthree from "../../public/images/phoneacc.png";
 
 function Header() {
   return (
-    <div className="w-full mt-5 ">
+    <div className=" mt-5 sm:mx-[65px] ">
       <Carousel
         showThumbs={false}
         infiniteLoop={true}
@@ -18,11 +18,11 @@ function Header() {
       >
         <div className="relative ">
           <img
-            className="w-full h-[500px] object-cover rounded-3xl"
+            className="w-full h-[500px] object-cover  "
             src={image1}
             alt="Hot Air Balloon"
           />
-          <div className="absolute inset-0 flex flex-col items-start justify-center bg-black bg-opacity-50 text-white p-8 rounded-3xl">
+          <div className="absolute inset-0 flex flex-col items-start justify-center bg-black bg-opacity-50 text-white p-8 sm:rounded-3xl ">
             <h2 className="text-3xl md:text-5xl font-bold text-start lg:text-center">Welcome to Our Mobile Accessories Store</h2>
             <p className="mt-4 text-sm md:text-lg text-gray-300 w-full md:w-[60%] text-start">Find the best covers, chargers, and accessories for your mobile devices. We offer a wide range of high-quality products to meet all your needs.</p>
             <div className="mt-4 space-x-4">

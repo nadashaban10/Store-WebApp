@@ -53,7 +53,7 @@ const Category = () => {
   ];
 
   return (
-    <div className="container mx-auto my-[100px] w-[89%] ">
+    <div className="container mx-auto my-[100px] w-[85%] ">
       <h2 className="text-3xl font-bold mb-6">Trending Categories</h2>
       <Slider {...settings}>
         {categories.map(category => (

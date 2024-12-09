@@ -8,7 +8,7 @@ function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex flex-col sm:flex-row items-center justify-between p-4 mx- bg-white text-black font-poppins">
+    <nav className="flex flex-col sm:flex-row items-center justify-between p-4 mx-8 bg-white text-black font-poppins ">
       <div className="flex items-center justify-between w-full sm:w-auto mt-4 mb-1 sm:mb-0">
         <h1 className='font-poppins text-black font-bold tracking-widest text-xl hover:text-red-500'>Shop Phone</h1>
         <div className="flex items-center sm:hidden">
